@@ -2,6 +2,8 @@
 
 Automatically fetches new posts from multiple RSS feeds and relays them as formatted embeds to a Discord App via webhook.
 
+Example use: https://discord.gg/y2hsbzMkhD
+
 ## Configuration
 
 Copy `config.example.json` to `config.json` and fill in your details:
