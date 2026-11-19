@@ -2,7 +2,7 @@
 
 Automatically fetches new posts from multiple RSS feeds and relays them as formatted embeds to a Discord App via webhook.
 
-Example use: https://discord.gg/y2hsbzMkhD
+Example use: [My Personal Testing Server](https://discord.gg/sB84pQft4y)
 
 ## Configuration
 
