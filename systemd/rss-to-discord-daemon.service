@@ -1,0 +1,15 @@
+[Unit]
+Description=RSS to Discord Webhook Relay (Daemon Mode)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/millexica/Projects/rss-to-discord/rss_to_discord.py --daemon --interval 300
+WorkingDirectory=/home/millexica/Projects/rss-to-discord
+Restart=on-failure
+RestartSec=15
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

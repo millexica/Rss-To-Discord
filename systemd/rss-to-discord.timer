@@ -1,0 +1,12 @@
+[Unit]
+Description=Run RSS to Discord Webhook Relay every 5 minutes
+After=network.target
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+AccuracySec=30s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

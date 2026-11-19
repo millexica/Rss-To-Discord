@@ -1,0 +1,17 @@
+# Configuration containing live webhooks / secrets
+config.json
+
+# Local state file tracking seen posts
+data/
+*.tmp
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store

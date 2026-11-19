@@ -1,0 +1,13 @@
+[Unit]
+Description=RSS to Discord Webhook Relay
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/millexica/Projects/rss-to-discord/rss_to_discord.py --once
+WorkingDirectory=/home/millexica/Projects/rss-to-discord
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

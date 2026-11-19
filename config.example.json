@@ -1,0 +1,18 @@
+{
+  "feeds": [
+    {
+      "name": "example-feed",
+      "url": "https://rss.app/feeds/example.xml",
+      "initial_action": "post-latest"
+    }
+  ],
+  "webhook_url": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
+  "check_interval_seconds": 300,
+  "state_file": "data/posted_ids.json",
+  "initial_action": "post-latest",
+  "discord": {
+    "username": "Twitter Updates",
+    "avatar_url": "https://abs.twimg.com/favicons/twitter.3.ico",
+    "embed_color": 1942002
+  }
+}
